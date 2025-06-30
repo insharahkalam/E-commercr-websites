@@ -1,0 +1,351 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.search {
+  width: 365px;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.btn {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  color: black;
+  width: 160px;
+}
+.btn1 {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 5px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 5px !important;
+}
+.margin-left {
+  margin-left: 20rem;
+}
+
+.navbar-nav {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.first {
+  background-color: rgba(227, 240, 255, 1) !important;
+  border-radius: 10px;
+}
+.btnlog {
+  border: 1px solid grey !important;
+  width: 180px !important;
+}
+.abc {
+  background-color: rgba(243, 131, 50, 1);
+  border: 1px solid rgba(243, 131, 50, 1);
+  margin: 0px 23px 0px 23px;
+  border-radius: 10px;
+}
+.def {
+  background-color: rgba(85, 189, 195, 1);
+  border: 1px solid rgba(85, 189, 195, 1);
+  margin: 0px 23px 0px 23px;
+  border-radius: 10px;
+}
+.ghi {
+  margin: 0px 23px 0px 23px;
+  border-radius: 10px;
+  background-color: rgba(227, 240, 255, 1) !important;
+  border: 1px solid rgba(227, 240, 255, 1);
+}
+.jkl {
+  border: 1px solid rgb(188, 188, 188);
+  padding-top: 15px;
+  border-radius: 5px;
+}
+.btns {
+  margin-left: 8px;
+  width: 50px;
+  background-color: rgba(96, 96, 96, 1);
+}
+.btns1 {
+  /* margin-left: 8px; */
+  width: 50px;
+  background-color: rgba(96, 96, 96, 1);
+}
+.price {
+  background-color: rgba(255, 227, 227, 1);
+}
+.lastcard {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.firstcard {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.overlayCard {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  background-color: rgb(255, 228, 178) !important;
+}
+.overlayCard1 {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.roundedCards1 {
+  border-bottom-right-radius: 5px !important;
+  border-top-right-radius: 0px !important;
+}
+.roundedCards {
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 5px !important;
+}
+.blue-section {
+  background-image: url("./images/Mask\ group\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  gap: 30px;
+}
+.left-text h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.right-form {
+  width: 50%;
+  height: 50%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.right-form input,
+.right-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.right-form select {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.right-form button {
+  background: linear-gradient(rgba(18, 127, 255, 1), rgba(0, 103, 255, 1));
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 35%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: rgba(209, 231, 255, 1);
+  position: absolute;
+  top: 90px;
+  right: 20px;
+}
+.smal {
+  font-size: 12px;
+  padding-bottom: 2px;
+}
+.me {
+  margin-right: 40px;
+}
+.icon {
+  left: 30px;
+  bottom: 1px;
+}
+.text-2 {
+  font-size: 12px;
+}
+.lastt {
+  background-color: rgba(222, 226, 231, 1);
+}
+.last2 {
+  background-color: rgba(239, 242, 244, 1);
+}
+.last3 {
+  background-color: rgb(247, 250, 252);
+}
+.ul {
+  color: rgba(80, 80, 80, 1);
+}
+.innn {
+  width: 100px;
+  border: 1px solid rgba(222, 226, 231, 1);
+}
+.innn2 {
+  width: 200px;
+  border: 1px solid rgba(222, 226, 231, 1);
+}
+.btnn {
+  border: 1px solid rgba(222, 226, 231, 1);
+}
+.btnnnn {
+  width: 40px;
+  height: 40px;
+}
+.aa {
+  height: 60px;
+}
+del {
+  font-size: 14px;
+}
+.color {
+  color: #00b517;
+}
+.btnnn {
+  background: linear-gradient(rgba(18, 127, 255, 1), rgba(0, 103, 255, 1));
+  width: 225px;
+}
+.aaaa {
+  background-color: rgba(255, 240, 223, 1);
+}
+.gaaap {
+  margin-left: 165px;
+}
+
+.tab-underline {
+  height: 2px;
+  background-color: #007bff;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.custom-tabs .nav-link {
+  color: gray;
+  position: relative;
+  font-weight: 500;
+  border: none;
+}
+
+.custom-tabs .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.custom-tabs .nav-link.active {
+  color: #007bff;
+}
+
+.bgColor{
+  background-color: rgba(238, 238, 238, 1)
+}
+.marginn{
+  margin-left: -38px;
+}
+.poly-left{
+  width: 65%;
+   clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+      background-color:rgba(35, 124, 255, 1)
+}
+.poly-right{
+   clip-path: polygon(100% 0%, 10% 0, 100% 0 20%, 0 0);
+   width: 35%;
+}
+.bg{
+  background-color: rgba(0, 90, 222, 1);
+}
+.btn22{
+  background-color:rgba(255, 144, 23, 1);
+  border: 1px solid rgba(255, 144, 23, 1);
+  width: 150px;
+  height: 40px;
+border-radius: 5px !important;
+position: absolute;
+left: 80%;
+bottom: 40px;
+color: white;
+}
+.pp{
+  color: rgb(227, 224, 224) !important;
+}
+.bbgg{
+  background-color: rgba(0, 181, 23, 1);
+}
+.bgColor2{
+  background-color: rgba(238, 238, 238, 1);
+  width: 250px;
+}
+.hide{
+  display: none;
+}
+
+.cart-container {
+      cursor: pointer;
+    }
+
+   
+    .cart-badge {
+      position: absolute;
+      top:5px;
+      right: 90px;
+      background-color: rgb(255, 45, 45);
+      color: white;
+      display: none; 
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+padding-bottom: 7px;
+font-size: 12px;
+font-weight: bold;
+    }
+
+    .hoverEff:hover{
+background-color: rgb(204, 237, 252);
+border-radius: 5px;
+color: #007bff;
+    }
+
+   .pulse-hover:hover {
+ animation: zoomPulse 0.6s ease-in-out;
+}
+
+@keyframes zoomPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); /* Slight zoom */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
