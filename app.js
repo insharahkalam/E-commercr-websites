@@ -1220,7 +1220,7 @@ showBtnCol1.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://onestopstore.com.pk/wp-content/uploads/2023/10/1-Main-Picture-3-300x300.jpg" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1238,7 +1238,7 @@ showBtnCol1.addEventListener("click",()=>{
 
 <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://rukminim2.flixcart.com/image/850/1000/l4ssfww0/cases-covers/back-cover/2/1/b/xr-blue-milestone-mobile-accessories-original-imagfhkb9utanymj.jpeg?q=90&crop=false" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1254,7 +1254,7 @@ showBtnCol1.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnpaGgI7Czciv5dznwHQw89_1P8slJuPLLQ&s" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1270,7 +1270,7 @@ showBtnCol1.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://cdn.shopify.com/s/files/1/1603/9553/files/Harmonics_Twins_S10_Mobile_headphones_best_tws_earphones_480x480.webp?v=1722323783" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1294,7 +1294,7 @@ const showBtnCol2 = document.getElementById("showBtnCol2");
 const colCard2 = document.getElementById("colCard2");
 if(showBtnCol2&&colCard2){
 showBtnCol2.addEventListener("click",()=>{
-    colCard2.innerHTML = ` <div class="d-flex gap-4">
+    colCard2.innerHTML = `  <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
   <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
   <hr> 
@@ -1312,7 +1312,7 @@ showBtnCol2.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/mobile.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1328,7 +1328,7 @@ showBtnCol2.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/mobile2.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1346,7 +1346,7 @@ showBtnCol2.addEventListener("click",()=>{
 
 <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/laptop.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1362,7 +1362,7 @@ showBtnCol2.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/lamp.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1378,7 +1378,7 @@ showBtnCol2.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://onestopstore.com.pk/wp-content/uploads/2023/10/1-Main-Picture-3-300x300.jpg" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1396,7 +1396,7 @@ showBtnCol2.addEventListener("click",()=>{
 
 <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://rukminim2.flixcart.com/image/850/1000/l4ssfww0/cases-covers/back-cover/2/1/b/xr-blue-milestone-mobile-accessories-original-imagfhkb9utanymj.jpeg?q=90&crop=false" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1412,7 +1412,7 @@ showBtnCol2.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnpaGgI7Czciv5dznwHQw89_1P8slJuPLLQ&s" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1428,7 +1428,7 @@ showBtnCol2.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://cdn.shopify.com/s/files/1/1603/9553/files/Harmonics_Twins_S10_Mobile_headphones_best_tws_earphones_480x480.webp?v=1722323783" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1452,7 +1452,7 @@ const showBtnCol3 = document.getElementById("showBtnCol3");
 const colCard3 = document.getElementById("colCard3");
 if(showBtnCol3&&colCard3){
 showBtnCol3.addEventListener("click",()=>{
-    colCard3.innerHTML = ` <div class="d-flex gap-4">
+    colCard3.innerHTML = `  <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
   <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
   <hr> 
@@ -1470,7 +1470,7 @@ showBtnCol3.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/mobile.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1486,7 +1486,7 @@ showBtnCol3.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/mobile2.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1504,7 +1504,7 @@ showBtnCol3.addEventListener("click",()=>{
 
 <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/laptop.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1520,7 +1520,7 @@ showBtnCol3.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="./images/lamp.png" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1536,7 +1536,7 @@ showBtnCol3.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://onestopstore.com.pk/wp-content/uploads/2023/10/1-Main-Picture-3-300x300.jpg" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1554,7 +1554,7 @@ showBtnCol3.addEventListener("click",()=>{
 
 <div class="d-flex gap-4">
      <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://rukminim2.flixcart.com/image/850/1000/l4ssfww0/cases-covers/back-cover/2/1/b/xr-blue-milestone-mobile-accessories-original-imagfhkb9utanymj.jpeg?q=90&crop=false" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1570,7 +1570,7 @@ showBtnCol3.addEventListener("click",()=>{
 </div> 
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnpaGgI7Czciv5dznwHQw89_1P8slJuPLLQ&s" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1586,7 +1586,7 @@ showBtnCol3.addEventListener("click",()=>{
 </div>
 
  <div class="card pulse-hover mt-3" style="width: 17rem;">
-  <img  height="270" src="./images/phones.png" class="card-img-top py-3" alt="...">
+  <img  height="270" src="https://cdn.shopify.com/s/files/1/1603/9553/files/Harmonics_Twins_S10_Mobile_headphones_best_tws_earphones_480x480.webp?v=1722323783" class="card-img-top py-3" alt="...">
   <hr> 
   <div class="card-body pt-0 mt-0">
     <div class="d-flex justify-content-between">
@@ -1601,6 +1601,7 @@ showBtnCol3.addEventListener("click",()=>{
   </div>
 </div>
 </div>
+
 `
 showBtnCol3.style.display="none";
 })
