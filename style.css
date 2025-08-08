@@ -349,3 +349,338 @@ color: #007bff;
     transform: scale(1);
   }
 }
+
+
+/* media query */
+/* Tablet & small laptop (900px - 1199px) */
+@media (min-width: 901px) and (max-width: 1199px) {
+  .section-2 {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 15px;
+  }
+
+  .section-2 .firstcard {
+    width: 100% !important;
+  }
+
+  .section-2 .card {
+    width: 30% !important; /* 3 cards per row approx */
+  }
+}
+
+/* Mobile & small tablets (<=900px) */
+@media (max-width: 900px) {
+  .section-2 {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 15px;
+  }
+
+  .section-2 .firstcard {
+    width: 100% !important;
+  }
+
+  .section-2 .card {
+    width: 45% !important; /* 2 cards per row approx */
+  }
+
+  .section-2 .btns,
+  .section-2 .btns1 {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+
+  .section-2 .card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile narrow screens (<=600px) */
+@media (max-width: 600px) {
+  .section-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-2 .card {
+    width: 90% !important;
+  }
+
+  .section-2 .firstcard {
+    width: 100% !important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .section3 {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .section3 > .card {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .mainCard {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mainCard .card {
+    width: calc(50% - 1rem) !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .mainCard .card .card-body {
+    padding: 0.5rem;
+  }
+
+  .mainCard img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainCard {
+    flex-direction: column !important;
+    align-items: center; /* ✅ Center cards horizontally */
+  }
+
+  .mainCard .card {
+    width: 100% !important;
+    max-width: 90%; /* ✅ Optional: slightly narrow for better padding */
+  }
+}
+
+
+@media (max-width: 992px) {
+  .section4 {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .section4 > .card {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .mainCard {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .mainCard .card {
+    width: calc(50% - 1rem) !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .mainCard img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainCard {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .mainCard .card {
+    width: 100% !important;
+    max-width: 90%;
+  }
+
+  .section4 > .card {
+    width: 100% !important;
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ===== Tablet view (2 columns) ===== */
+@media (max-width: 992px) {
+  .blue-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .left-text,
+  .right-form {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+
+  .right-form form {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input,
+  .form-row select,
+  .right-form button {
+    width: 100%;
+  }
+}
+
+
+/* Base styles (Desktop default) */
+.blue-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* Ensure both divs take 50% space */
+.left-text,
+.right-form {
+  width: 50%;
+}
+
+.left-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.left-text p {
+  font-size: 16px;
+  color: #666;
+}
+
+.right-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-form input,
+.right-form textarea,
+.right-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+}
+
+.right-form button {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Tablet View: 768px to 991px */
+@media (max-width: 991px) {
+  .blue-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .left-text,
+  .right-form {
+    width: 48%;
+  }
+
+  .right-form form {
+    padding: 0.8rem;
+  }
+}
+
+/* Mobile View: below 768px */
+@media (max-width: 767px) {
+  .blue-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .left-text,
+  .right-form {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input,
+  .form-row select {
+    width: 100%;
+  }
+
+  .right-form button {
+    width: 100%;
+  }
+}
+

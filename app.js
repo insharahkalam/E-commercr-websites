@@ -1645,7 +1645,7 @@ updateCartDisplay();
 
 
 const moveToCart1= document.getElementById("moveToCart1");
-moveToCart1.addEventListener("click",()=>{
+moveToCart1&&moveToCart1.addEventListener("click",()=>{
     emptyDiv.addEventListener("click", function (event) {
   if (event.target.classList.contains("btnn1")) {
     const cartCard = event.target.closest(".cartCardremove");
@@ -1690,7 +1690,7 @@ emptyDiv.innerHTML+=`
 
 
 const moveToCart2= document.getElementById("moveToCart2");
-moveToCart2.addEventListener("click",()=>{
+moveToCart2&&moveToCart2.addEventListener("click",()=>{
     emptyDiv.addEventListener("click", function (event) {
   if (event.target.classList.contains("btnn1")) {
     const cartCard = event.target.closest(".cartCardremove");
@@ -1735,7 +1735,7 @@ emptyDiv.innerHTML+=`
 
 
 const moveToCart3= document.getElementById("moveToCart3");
-moveToCart3.addEventListener("click",()=>{
+moveToCart3&&moveToCart3.addEventListener("click",()=>{
     emptyDiv.addEventListener("click", function (event) {
   if (event.target.classList.contains("btnn1")) {
     const cartCard = event.target.closest(".cartCardremove");
@@ -1779,7 +1779,7 @@ emptyDiv.innerHTML+=`
 })
 
 const moveToCart4= document.getElementById("moveToCart4");
-moveToCart4.addEventListener("click",()=>{
+moveToCart4&&moveToCart4.addEventListener("click",()=>{
     emptyDiv.addEventListener("click", function (event) {
   if (event.target.classList.contains("btnn1")) {
     const cartCard = event.target.closest(".cartCardremove");
@@ -1825,7 +1825,7 @@ emptyDiv.innerHTML+=`
 const backTOShop = document.getElementById("backTOShop");
 const cartCardremove = document.querySelectorAll(".cartCardremove");
 const removeAll = document.getElementById("removeAll");
-removeAll.addEventListener("click",()=>{
+removeAll&&removeAll.addEventListener("click",()=>{
 cartCardremove.forEach((cartbox)=>{
     cartbox.style.display="none";
     boxDiv.style.height="75PX";
@@ -1942,6 +1942,43 @@ document.addEventListener("click", function (event) {
   }
 });
 
+// counter 
+let savedTime = localStorage.getItem("countdownTime");
+let time;
+if (savedTime) {
+    time = JSON.parse(savedTime);
+} else {
+    time = { days: 4, hours: 13, minutes: 34, seconds: 56 };
+}
 
+function updateCountdown() {
+    time.seconds--;
+    if (time.seconds < 0) {
+        time.seconds = 59;
+        time.minutes--;
+    }
+    if (time.minutes < 0) {
+        time.minutes = 59;
+        time.hours--;
+    }
+    if (time.hours < 0) {
+        time.hours = 23;
+        time.days--;
+    }
 
+    if (time.days < 0) {
+        clearInterval(timer);
+        time = { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
 
+    // Save updated time in localStorage
+    localStorage.setItem("countdownTime", JSON.stringify(time));
+
+    document.getElementById("days").innerText = time.days < 10 ? "0" + time.days : time.days;
+    document.getElementById("hours").innerText = time.hours < 10 ? "0" + time.hours : time.hours;
+    document.getElementById("minutes").innerText = time.minutes < 10 ? "0" + time.minutes : time.minutes;
+    document.getElementById("seconds").innerText = time.seconds < 10 ? "0" + time.seconds : time.seconds;
+}
+
+let timer = setInterval(updateCountdown, 1000);
+updateCountdown();
